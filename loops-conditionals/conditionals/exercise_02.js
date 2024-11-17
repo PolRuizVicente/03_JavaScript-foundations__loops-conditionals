@@ -1,12 +1,12 @@
 /* 
-   Spot the bug 🐞
-   Should print: "Most places consider you an adult."... but it doesn't, why?
-
-   Add a comment explaining what is happenning and how to fix it
+  Spot the bug 🐞
+  Should print: "Most places consider you an adult."... but it doesn't, why?
+  Add a comment explaining what is happenning and how to fix it
 */
 
 const age = 20;
 
+function checkAge(){
 if (age < 3) {
   console.log("You're just a baby!");
   return;
@@ -25,3 +25,7 @@ if (age >= 18) {
 }
 
 console.log("What? How did this happen!?");
+return  
+}
+
+checkAge()
